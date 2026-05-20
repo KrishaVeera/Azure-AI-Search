@@ -1,30 +1,46 @@
 # Azure-AI-Search
 
-Concept 1: What Azure AI Search Is
-Azure AI Search is a cloud service that helps applications search through large amounts of content and return relevant results. It can search through text, vectors, images/multimodal content, and enterprise data, and it is commonly used in websites, apps, chatbots, and RAG systems. 
+# Concept 1: What Azure AI Search Is
 
-Examples:
-•	Search products in an ecommerce app
-•	Search documents in a company portal
-•	Search support tickets
-•	Search PDFs, Word docs, web content, or database records
-•	Retrieve relevant company data for an AI chatbot
+Azure AI Search is a cloud service that helps applications search through large amounts of content and return relevant results. It supports:
 
-Why It Matters
+- Text search  
+- Vector search  
+- Image / multimodal content  
+- Enterprise data  
+
+It is commonly used in websites, apps, chatbots, and RAG systems.
+
+# Examples
+- Search products in an ecommerce app  
+- Search documents in a company portal  
+- Search support tickets  
+- Search PDFs, Word docs, web content, or database records  
+- Retrieve relevant company data for an AI chatbot  
+
+# Why It Matters
 Normal databases are good at storing data, but they are not always good at ranking results by relevance.
 
-For example, if a user searches: “laptop for video editing”
-A normal database might only find exact matches. Azure AI Search can understand search terms better, rank useful results higher, and combine different search methods like full-text search, vector search, hybrid search, and multimodal search. 
+For example, if a user searches:  
+> "laptop for video editing"
 
-Where It Fits in an App
+A normal database might only find exact matches.
+Azure AI Search can:
+- Understand search intent better  
+- Rank useful results higher  
+- Combine multiple search methods:
+  - Full-text search  
+  - Vector search  
+  - Hybrid search  
+  - Multimodal search  
+
+# Where It Fits in an App
 A typical app flow looks like this:
-User searches in app
-        ↓
-App sends query to Azure AI Search
-        ↓
-Azure AI Search searches an index
-        ↓
-Relevant results are returned
-        ↓
-App displays results to user
+1. User searches in the app  
+2. App sends query to Azure AI Search  
+3. Azure AI Search searches an index  
+4. Relevant results are returned  
+5. App displays results to the user
+
+
 
